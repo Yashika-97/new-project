@@ -3,6 +3,7 @@ const express=require('express');
 const mongoose=require('mongoose')
 const cors=require('cors');
 const app=express();
+const port='https://new-frontend-ra0f.onrender.com';
 app.use(cors());
 
 app.use(express.json());
@@ -98,7 +99,7 @@ app.post('/api/employees',async(req,res)=>{
   });
 
 
-app.listen(3001,()=>{
+app.listen({port},()=>{
     console.log("server is started on http://localhost:3001");
 
 });
