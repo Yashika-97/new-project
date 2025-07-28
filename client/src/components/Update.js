@@ -13,7 +13,7 @@ export function Update(){
         e.preventDefault();
         try
         {
-const response = await axios.put(`http://localhost:3001/api/employees/${id}`, { empNo,empName,empSal});
+const response = await axios.put(`https://new-project-fh3u.onrender.com/api/employees/${id}`, { empNo,empName,empSal});
             alert('Employee Update');
         }
         catch(err)
