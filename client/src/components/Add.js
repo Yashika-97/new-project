@@ -12,7 +12,7 @@ export function Add(){
     
         e.preventDefault(); 
         try{ 
-            const response=await axios.post('http://localhost:3001/api/employees', {empNo,empName,empSal}); 
+            const response=await axios.post('https://new-project-fh3u.onrender.com/api/employees', {empNo,empName,empSal}); 
                 alert('Employee Add'); 
         } 
         catch(err){ 
