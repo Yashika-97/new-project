@@ -1,0 +1,95 @@
+/* Container */
+#div1 {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Input fields */
+.inputs {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.inputs:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+#login {
+  width: 100%;
+  padding: 12px;
+  background-color: #872341;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#login:hover {
+  background-color: #1B3C53;
+}
+
+/* media queries  */
+@media (max-width: 768px) {
+  #div1 {
+    padding: 20px;
+    margin: 40px 15px;
+  }
+
+  .h1 {
+    font-size: 22px;
+  }
+
+  .inputs {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  #login {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile phones (≤480px) */
+@media (max-width: 480px) {
+  #div1 {
+    padding: 15px;
+    margin: 30px 10px;
+  }
+
+  .h1 {
+    font-size: 20px;
+  }
+
+  .inputs {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #login {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

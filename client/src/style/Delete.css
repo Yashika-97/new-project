@@ -1,0 +1,94 @@
+/* Container for delete form */
+.dlt {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading style */
+.h3 {
+  color: #343a40;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #dc3545;
+  outline: none;
+}
+
+/* Delete button */
+.btn {
+  width: 100%;
+  background-color: #872341;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
+}
+.btn:hover{
+  background-color: #1B3C53;
+}
+ /* media queries  */
+ @media (max-width: 768px) {
+  .dlt {
+    padding: 20px;
+    margin: 40px 15px;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile phones (≤480px) */
+@media (max-width: 480px) {
+  .dlt {
+    padding: 15px;
+    margin: 30px 10px;
+  }
+
+  .h3 {
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
