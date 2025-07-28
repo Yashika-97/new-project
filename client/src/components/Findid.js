@@ -11,7 +11,7 @@ export function Findid(){
         //e.preventDefault();
         try
         {
-const response = await axios.get(`http://localhost:3001/api/employees/${id}`);
+const response = await axios.get(`https://new-project-fh3u.onrender.com/api/employees/${id}`);
 setEmployee(response.data);
         }
         catch(err)
